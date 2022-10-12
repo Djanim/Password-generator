@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background: #1F2937;
+    color: white;
+}
+
+h1 {
+    margin-left: 2%;
+}
+
+#slogan {
+    color: #D5D4D8;
+    margin-left: 2%;
+}
+
+button {
+    color: white;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    width: 191px;
+    height: 42px;
+    margin-left: 2%;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+#PasswordLength {
+    width: 50px;
+    height: 42px;
+    display: inline-block;
+    color: white;
+    outline: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    gap: 12px;
+
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-color: black;
+    border-radius: 6px;
+}
+    
+#stick {
+    width: 96%;
+    height: 2px;
+    top: 361px;
+    margin:  20px auto;
+    background-color: #2F3E53;
+}
+
+.passwords {
+
+    display: inline-block;
+}
+
+
+.boxes {
+    display: flex;
+}
+#right_box {
+    text-align: center;
+    justify-content: center;
+    margin-left: 2%;
+    align-items: center;
+    display: flex;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+#left_box {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+
+    background: #273549;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+#randomPassword_1 {
+    text-align: center;
+    color: #55F991;
+}
+
+#randomPassword_2 {
+    text-align: center;
+    color: #55F991;
+}

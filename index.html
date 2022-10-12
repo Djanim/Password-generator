@@ -1,0 +1,29 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a <br> <span style="color: #10B981">random password</span></h1>
+        
+        <p id="slogan">Never use an insecure password again.</p>
+        
+        <button onclick="print()">Generate passwords</button>
+        
+        <input id="PasswordLength" type="number" value="15">
+        
+        <div id="stick"></div>
+        
+        <!-- Output boxes -->
+        
+        <div class="boxes">
+            <div onclick="CopyText()" id="right_box">
+                <p id="randomPassword_1"></p>
+            </div>
+            <div onclick="CopyText()" id="left_box">
+                <p id="randomPassword_2"></p>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
